@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="a5-apis.css" />
+    <title>Assignment 5</title>
+  </head>
+
+  <body>
+    <h1>Humber Weather Station</h1>
+
+    <!-- BUTTON BOX -->
+    <div id="choose_box">
+      <h2>Choose Your City:</h2>
+      <div id="buttons">
+        <button id="Toronto">Toronto</button>
+        <button id="Yourtown">Dubai</button>
+      </div>
+    </div>
+
+    <!-- ERROR SECTION -->
+    <section id="errorOutput">
+      <h3 id="error"></h3>
+    </section>
+
+    <!-- OUTPUT SECTION -->
+    <section id="output">
+      <!-- CITY NAME (3.a) AND WEATHER ICON (3.d)-->
+      <h3>
+        <span id="location"></span>
+        Local Weather:
+        <span id="icon"></span>
+      </h3>
+
+      <!-- TEMPERATURE (3.b) -->
+      <p>
+        Current temperature:<span id="temperature" class="displayText"></span>
+      </p>
+
+      <!-- CONDITIONS (3.c) -->
+      <p>
+        Current conditions:
+        <span id="conditions" class="displayText"></span>
+      </p>
+
+      <!-- A FIFTH PROPERTY OF YOUR CHOOSING (3.e) -->
+      <p>
+        <!-- ADD YOUR OWN MARKUP HERE. YOU MAY PLACE IT ANYWHERE ON THE PAGE THAT YOU FEEL IS APPROPRIATE. -->
+        Feels like:
+        <span id="feels"></span>
+      </p>
+      <p>
+        <!-- ADD YOUR OWN MARKUP HERE. YOU MAY PLACE IT ANYWHERE ON THE PAGE THAT YOU FEEL IS APPROPRIATE. -->
+        Wind speed :
+        <span id="wind"></span>
+      </p>
+    </section>
+  </body>
+</html>
